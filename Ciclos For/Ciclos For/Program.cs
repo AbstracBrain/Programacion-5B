@@ -36,8 +36,6 @@ namespace Ciclos_For
                 }
 
 
-
-
             }
 
         }
