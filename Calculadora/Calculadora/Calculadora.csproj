@@ -46,16 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Clases\ClaseDivision.cs" />
+    <Compile Include="Clases\ClaseMultiplicacion.cs" />
+    <Compile Include="Clases\ClasePorcentaje.cs" />
+    <Compile Include="Clases\ClaseResta.cs" />
+    <Compile Include="Clases\ClaseSuma.cs" />
+    <Compile Include="Calculadora1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Calculadora1.Designer.cs">
+      <DependentUpon>Calculadora1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Calculadora1.resx">
+      <DependentUpon>Calculadora1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
